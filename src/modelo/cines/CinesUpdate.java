@@ -22,8 +22,8 @@ public class CinesUpdate {
        					+ "telefono='"+cine.getTelefono()+"', "
        					+ "responsable='"+cine.getResponsable()+"' "
        					+ "WHERE idcines="+cine.getIdCine();
-       	
-       	
+       					
+   	
 		try {
 			stmt = conexion.prepareStatement(sql);
 	       	stmt.executeUpdate();
